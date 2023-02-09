@@ -6,7 +6,7 @@ const Report = (): JSX.Element => {
     return (
         <div className="flex">
           <Sidebar />
-          <div className="block">
+          <div className="block text-[0.80rem] w-[96%]">
           <TopBar />
           <NotificationBody />
           </div>
