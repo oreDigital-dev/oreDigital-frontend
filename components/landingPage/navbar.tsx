@@ -16,7 +16,7 @@ function Navbar() {
         ))}
        </div>
         <div className='flex float-right'>
-        <button className='h-12 w-32 rounded-3xl border-[1px] border-opacity-25 float-right mr-6 boorder-solid border-black'>Sign in</button>
+        <button className='h-12 w-32 rounded-3xl  float-right mr-6 bg-[#5A3FFF] text-white'>Sign in</button>
         </div>
       
     </div>
