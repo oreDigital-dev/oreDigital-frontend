@@ -1,5 +1,5 @@
 import React from "react";
-import ServicesC from "./servicesContent";
+// import ServicesC from "./servicesContent";
 import { ArrowRight } from "react-bootstrap-icons";
 
 function HomePage() {
@@ -21,7 +21,8 @@ function HomePage() {
           <button className="text-[#3F3F3F] bg-white rounded-full px-12 py-2">Watch demo</button>
         </div>
         <img className="w-[70%] mx-auto" src="image/notification-center.png"/>
-        <ServicesC/>
+        {/* <ServicesC/> */}
+        
       </div>            
     </div>
   );
