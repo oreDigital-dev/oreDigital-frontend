@@ -12,11 +12,10 @@ module.exports = {
     extend: {
       fontFamily: {
         'outfit': ['"outfit"'],
-        'Inknut Antiqua':['"inkut Antiqua"']
-        
+       
       },
       backgroundImage: {
-        'home': "url('../public/image/home.png')",
+       
       },
     },
   },
