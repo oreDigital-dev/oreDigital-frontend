@@ -1,9 +1,11 @@
+import WelcomePage from '@/components/landingPage/welcomePage'
 import React from 'react'
-
-function index() {
+function Index() {
   return (
-    <div>index</div>
+    <div>
+     <WelcomePage />
+    </div>
   )
 }
 
-export default index
+export default Index
