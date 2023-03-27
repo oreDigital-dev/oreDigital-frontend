@@ -1,6 +1,8 @@
 import React from "react";
 import ServicesC from "./servicesContent";
 import { ArrowRight } from "react-bootstrap-icons";
+// import Installation from "./Installation";
+import Process from "./Process";
 
 function HomePage() {
   return (
@@ -22,6 +24,7 @@ function HomePage() {
         </div>
         <img className="w-[70%] mx-auto" src="image/notification-center.png"/>
         <ServicesC/>
+        <Process/>
       </div>            
     </div>
   );
