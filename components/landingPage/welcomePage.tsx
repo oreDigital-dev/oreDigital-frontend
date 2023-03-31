@@ -1,4 +1,5 @@
 import React from 'react'
+import AboutUs from './aboutUs'
 import Footer from './footer'
 import HomePage from './homePage'
 import Navbar from './navbar'
@@ -10,6 +11,7 @@ function WelcomePage() {
       <Navbar />
       <HomePage />
       <ServicesC />
+      <AboutUs />
       <Partners />
       <Footer />
     </div>

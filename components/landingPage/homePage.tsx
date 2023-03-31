@@ -1,6 +1,8 @@
 import React from "react";
-// import ServicesC from "./servicesContent";
+// import ServicesC fro m "./servicesContent";
 import { ArrowRight } from "react-bootstrap-icons";
+// import Installation from "./Installation";
+import Process from "./Process";
 
 function HomePage() {
   return (
