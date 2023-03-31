@@ -63,8 +63,8 @@ function AboutUs() {
         {testimonies?.map((testimony: Profile, index) => (
           <SwiperSlide><div
             key={index}
-            className="h-auto w-3/4 bg-white shadow-md shadow-gray-200 rounded-xl pl-8 ml-16 pr-12 pb-12 mr-12 mb-8"
-          >
+            className="h-auto w-3/4 bg-white shadow-md shadow-gray-200 rounded-xl pl-8 ml-16 pr-12 pb-12 mr-12 mb-12"
+             >  
             <div className="h-20 w-20 rounded-full">
               <img src={testimony.profile} alt="profile" />
             </div>
