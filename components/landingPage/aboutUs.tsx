@@ -42,8 +42,8 @@ function AboutUs() {
   return (
     <div className="">
       <div className="w-[30vw] ml-28 mt-24">
-        <h1 className="text-5xl font-bold">What they talk about us</h1>
-        <p>
+        <h1 className="text-5xl font-bold font-Inter">What they talk about us</h1>
+        <p className="font-open-sans">
           Here’s the services that we offer to you, to ensure both your
           company’s products and employees security
         </p>
@@ -68,9 +68,9 @@ function AboutUs() {
             <div className="h-20 w-20 rounded-full">
               <img src={testimony.profile} alt="profile" />
             </div>
-            <h1 className="text-xl">{name}</h1>
-            <p>{companyName}</p>
-            <p className="pt-10">{testimonyText}</p>
+            <h1 className="text-xl font-open-sans">{name}</h1>
+            <p className="font-open-sans">{companyName}</p>
+            <p className="pt-10 font-open-sans">{testimonyText}</p>
           </div>
         </SwiperSlide>
         ))}

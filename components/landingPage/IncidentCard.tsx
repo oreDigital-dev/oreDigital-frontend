@@ -30,9 +30,9 @@ const IncidentCard = ()=>{
            <div className="w-[25%] space-y-2 rounded-lg border border-[#EEEEEE]">
                 <img src={card.image}></img>
                 <div className="px-4">
-                    <p className="font-extrabold text-xl mb-4">{title}</p>
-                    <p>{content}</p>
-                    <button className="hover:bg-black hover:text-white bg-[#F5F5F5] rounded-lg px-5 py-2 mt-8 mb-4 flex items-center">{btn}<ArrowRight className="ml-2"/></button>          
+                    <p className="font-extrabold text-xl mb-4 font-jost">{title}</p>
+                    <p className="font-open-sans">{content}</p>
+                    <button className="hover:bg-black hover:text-white bg-[#F5F5F5] rounded-lg px-5 py-2 mt-8 mb-4 flex items-center font-open-sans">{btn}<ArrowRight className="ml-2"/></button>          
                 </div>                
             </div>
            ))}
