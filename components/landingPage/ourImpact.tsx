@@ -6,7 +6,7 @@ function OurImpact() {
     <div className='w-full bg-gradient-to-b from-blue-100 via-transparent mt-20 '>
            <div className='text-center w-1/3  ml-auto mr-auto  '>
         <h1 className='font-bold text-4xl pt-32 font-inter'>Our impact</h1>
-            <p className='font-open-sans'>Here’s  the services that we offer to you, to ensure both your company’s products and employees security</p>
+            <p className='font-open-sans pt-4'>Here’s  the services that we offer to you, to ensure both your company’s products and employees security</p>
         </div>
         <div className='flex justify-evenly mt-32'>
         {impactContent.map(impact => (
