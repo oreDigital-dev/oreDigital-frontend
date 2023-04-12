@@ -7,8 +7,8 @@ const ServicesC = () => {
       <div className="text-center w-[30%] mx-auto mb-8">
         <h1 className="font-extrabold text-5xl mb-4 font-general-sans">Our services</h1>
         <p className="text-[#3F3F3F] font-general-sans">
-          Here's the services that we offer to you, to ensure both your
-          company's products and employees security
+          Here &apos;s the services that we offer to you, to ensure both your
+          company &apos;s products and employees security
         </p>
       </div>
       <IncidentCard />
