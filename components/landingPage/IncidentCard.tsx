@@ -25,14 +25,14 @@ const IncidentCard = ()=>{
     const cards: IncCard[] = [Incard1, Incard2, Incard3];
 
     return(
-        <div className="flex justify-evenly w-[75%] mx-auto mb-8">
+        <div className="flex justify-evenly w-[95%] mx-auto">
            {cards?.map((card: IncCard)=>(
-           <div className="w-[25%] space-y-2 rounded-lg border border-[#EEEEEE]">
+           <div className="w-[25%] space-y-[8%] rounded-lg border border-[#EEEEEE]">
                 <img src={card.image}></img>
-                <div className="px-4">
-                    <p className="font-extrabold text-xl mb-4">{title}</p>
-                    <p>{content}</p>
-                    <button className="hover:bg-black hover:text-white bg-[#F5F5F5] rounded-lg px-5 py-2 mt-8 mb-4 flex items-center">{btn}<ArrowRight className="ml-2"/></button>          
+                <div className="px-[8%] pb-[5%] border">
+                    <h1 className="font-extrabold text-xl mb-4 w-[80%]">{title}</h1>
+                    <p className="w-[67%]">{content}</p>
+                    <button className="hover:bg-black hover:text-white bg-[#F5F5F5] rounded-lg px-5 py-2 mt-8 flex items-center">{btn}<ArrowRight className="ml-2"/></button>          
                 </div>                
             </div>
            ))}
